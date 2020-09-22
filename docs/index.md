@@ -1,4 +1,4 @@
-## <p style="text-align:center;">[About](./about.html)</p>
+## [About](./about.html)
 ## [Team](./team.html)
 
 
