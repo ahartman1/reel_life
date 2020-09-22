@@ -2,5 +2,5 @@
 title: Team
 layout: default
 filename: team.md
-permalink: /team/
+permalink: /team.html/
 ---
