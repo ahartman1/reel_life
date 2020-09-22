@@ -1,3 +1,6 @@
-layout: page
-title: "Project"
+---
+title: Project
+layout: default
+filename: project.md
 permalink: /project/
+---
