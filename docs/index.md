@@ -1,4 +1,4 @@
-[About](./about.html).
-[Team](./team.html).
+## [About](./about.html)
+## [Team](./team.html)
 
 
