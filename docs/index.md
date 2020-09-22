@@ -4,7 +4,7 @@ layout: default
 filename: index.md
 ---
 
-## [About](./about.html)
+## [Project](./project.html)
 ## [Team](./team.html)
 
 
