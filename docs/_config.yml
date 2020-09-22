@@ -1,3 +1,10 @@
 theme: jekyll-theme-tactile
 title: Reel Life
 description: Reel Life is an Android app that allows users to journal or blog about, share, and organize the existing photos in their photo gallery.
+navigation:
+  - title: Home
+    url: /
+  - title: Project
+    url: project
+  - title: Team
+    url: team
