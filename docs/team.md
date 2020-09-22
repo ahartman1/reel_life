@@ -1,3 +1,6 @@
-layout: page
-title: "Team"
+---
+title: Team
+layout: default
+filename: team.md
 permalink: /team/
+---
