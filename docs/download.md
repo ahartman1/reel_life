@@ -6,7 +6,10 @@ description: Download Reel Life within minutes and begin enjoying today!
 id: download
 ---
 ### Sprint Presentations
-Presentations to be uploaded soon...
+- Presentation 1
+- Sprint 1 Presentation
+- Sprint 2 Presentation
+- Final Presentation
 
 <br/>
 
@@ -16,9 +19,9 @@ Documentation to be uploaded soon...
 <br/>
 
 ### Source Code
-Source code to be uploaded soon...
+- Github Repository
 
 <br/>
 
 ### Downloadable .apk
-Final application to be uploaded soon...
+- Reel Life APK File
