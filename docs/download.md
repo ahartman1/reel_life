@@ -8,7 +8,7 @@ id: download
 ### Sprint Presentations
 - [Sprint 1 Presentation](https://docs.google.com/presentation/d/1sZ5v6q05sT9X0D0Gwmd3Rg7vmOHT8nksJU_4TC9efkg/edit#slide=id.g1f87997393_0_782)
 - [Sprint 2 Presentation](https://docs.google.com/presentation/d/1cwl7e8dvvD3ba9_8H4SQjpNC9f46BWqD0aqMb5pfn2Q/edit#slide=id.g1f87997393_0_782)
-- [Sprint 3 Presentation](https://docs.google.com/presentation/d/1l8L7Cw2wXmLVXsqOG3otvRnW6RMDRKdb97PPsnG4yAs/edit#slide=id.g1f87997393_0_864)
+- [Sprint 3 Presentation](https://docs.google.com/presentation/d/1l8L7Cw2wXmLVXsqOG3otvRnW6RMDRKdb97PPsnG4yAs/edit#slide=id.g1f87997393_0_782)
 
 <br/>
 <br/>
