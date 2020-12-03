@@ -7,7 +7,7 @@ id: about
 ---
 
 ### Reel Life Software Development Team
-## Lexi Wylie
+# Lexi Wylie
 Majors
 : Computer Science
 : Communication Studies
@@ -18,10 +18,12 @@ Graduation
 Hobbies
 : Enjoys traveling, hiking, and thrift shopping.
 
-> Goals: I'd like to play a role in establishing precedent and drafting legislation that addresses the issues at the intersection of human rights and technology. I'd also love to start my own company, most likely a nonprofit.
-***
+Goals
+: I'd like to play a role in establishing precedent and drafting legislation that addresses the issues at the intersection of human rights and technology. I'd also love to start my own company, most likely a nonprofit.
 
-## Wyatt Duke
+---
+
+# Wyatt Duke
 Major
 : Computer Science
 
@@ -30,10 +32,11 @@ Graduation
 
 Hobbies
 : Avid book reader. Programmer currently working in Java.
-> Goals: Make money with my degree.
-***
+ Goals: Make money with my degree.
 
-## Elliot Yates
+---
+
+# Elliot Yates
 Major
 : Computer Science
 
@@ -43,10 +46,12 @@ Graduation
 Hobbies
 : Always looking for a view to hike to and take pictures.
 
-> Goals: Make other people's lives easier and more enjoyable through work, while having time to explore new places.
-***
+Goals
+: Make other people's lives easier and more enjoyable through work, while having time to explore new places.
 
-## Allison Hartman
+---
+
+# Allison Hartman
 Major
 : Computer Science
 : Mathematics
@@ -60,4 +65,5 @@ Graduation
 Hobbies
 : I love to read and play just about any kind of card game. I also enjoy playing music. I have played the clarinet for 7 years and am in the process of learning piano.
 
-> Goals: I want to really enjoy what I do in the future and find time to volunteer locally with my community.
+Goals
+: I want to really enjoy what I do in the future and find time to volunteer locally with my community.
