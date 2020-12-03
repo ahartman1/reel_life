@@ -9,7 +9,7 @@ id: about
 <h3>Lexi Wylie</h3>
 Majors
 
-: Computer Science : Communication Studies
+: Computer Science, Communication Studies
 
 Graduation
 
@@ -66,7 +66,7 @@ Goals
 <h3>Allison Hartman</h3>
 Majors
 
-: Computer Science : Mathematics
+: Computer Science, Mathematics
 
 Minor
 
