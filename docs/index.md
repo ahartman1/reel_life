@@ -12,9 +12,9 @@ The Reel Life app is built on an algorithm that pulls a “random” cluster of 
 <br/>
 
 ### Project Goals
-<space><space>1. Remove the intimidation factor that comes along with starting a journal from scratch<space>
-<space><space>2. Train user to become a more active journaler by providing several different cluster creation and notification options<space>
-<space><space>3. Allow users to add context to photos that may already have been grouped automatically in their photo gallery<space>
-<space><space>4. Integrate users' journal entries with their social media accounts to create a level of consistency across local app and external platforms<space>  
+<space><space><space><space>1. Remove the intimidation factor that comes along with starting a journal from scratch<space>
+<space><space><space><space>2. Train user to become a more active journaler by providing several different cluster creation and notification options<space>
+<space><space><space><space>3. Allow users to add context to photos that may already have been grouped automatically in their photo gallery<space>
+<space><space><space><space>4. Integrate users' journal entries with their social media accounts to create a level of consistency across local app and external platforms<space>  
 
 
