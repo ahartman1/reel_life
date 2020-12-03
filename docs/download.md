@@ -18,9 +18,9 @@ Documentation to be uploaded soon...
 <br/>
 
 ### Source Code
-- [Github Repository](https://github.com/ahartman1/reel_life)
+- [ReelLife GitHub Repository](https://github.com/ahartman1/reel_life)
 
 <br/>
 
 ### Downloadable .apk
-- Reel Life APK File
+- ReelLife APK File coming soon...
