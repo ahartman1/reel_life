@@ -6,8 +6,7 @@ description: Meet the Reel Life software development team who made this all poss
 id: about
 ---
 
-### Reel Life Software Development Team
-## Lexi Wylie
+## **Lexi Wylie**
 Majors
 
 : Computer Science
@@ -27,7 +26,7 @@ Goals
 
 ---
 
-## Wyatt Duke
+## **Wyatt Duke**
 Major
 
 : Computer Science
@@ -46,7 +45,7 @@ Goals
 
 ---
 
-## Elliot Yates
+## **Elliot Yates**
 Major
 
 : Computer Science
@@ -65,7 +64,7 @@ Goals
 
 ---
 
-## Allison Hartman
+## **Allison Hartman**
 Majors
 
 : Computer Science
