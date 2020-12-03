@@ -11,7 +11,6 @@ id: download
 - [Sprint 3 Presentation](https://docs.google.com/presentation/d/1l8L7Cw2wXmLVXsqOG3otvRnW6RMDRKdb97PPsnG4yAs/edit#slide=id.g1f87997393_0_782)
 
 <br/>
-<br/>
 
 ### Sprint Deliverables
 - [Sprint 1 Deliverables ](https://drive.google.com/drive/folders/1GnhIM2lKGse_aLCzDi8U6_Ws0A-ntyNj)
@@ -19,12 +18,10 @@ id: download
 - [Sprint 3 Deliverables](https://drive.google.com/drive/folders/1fbfKJLQ6sh-bM-_PArAnDhegMlBvsEeH)
 
 <br/>
-<br/>
 
 ### Source Code
 - [ReelLife GitHub Repository](https://github.com/ahartman1/reel_life)
 
-<br/>
 <br/>
 
 ### Downloadable .apk
