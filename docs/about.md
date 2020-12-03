@@ -6,7 +6,7 @@ description: Meet the Reel Life software development team who made this all poss
 id: about
 ---
 
-## **Lexi Wylie**
+## Lexi Wylie
 Majors
 
 : Computer Science
