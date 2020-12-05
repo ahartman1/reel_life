@@ -7,4 +7,4 @@ id: demo
 ---
 
 ### Demonstration Video
-- [Video Link](https://www.youtube.com/watch?v=sGL8Wryy8g4&feature=youtu.be)
+- [![IMAGE ALT TEXT](http://img.youtube.com/vi/sGL8Wryy8g4/0.jpg)](http://www.youtube.com/watch?v=sGL8Wryy8g4 "ReelLife")
