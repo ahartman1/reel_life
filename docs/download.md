@@ -1,7 +1,7 @@
 ---
 layout: default
 filename: download.md
-title: Project Files & Download Links
+title: Project Files
 description: Download Reel Life within minutes and begin enjoying today!
 id: download
 ---
