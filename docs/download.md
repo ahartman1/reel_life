@@ -23,6 +23,3 @@ id: download
 - [ReelLife GitHub Repository](https://github.com/ahartman1/reel_life)
 
 <br/>
-
-### Downloadable .apk
-- ReelLife APK File coming soon...
