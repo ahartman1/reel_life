@@ -2,6 +2,7 @@ package com.example.lexiwylie.rl;
 
 import java.io.FileNotFoundException;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.app.Activity;
@@ -17,6 +18,16 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.view.View.OnClickListener;
 
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
+import com.google.firebase.storage.UploadTask;
+
+import java.io.File;
+import java.io.FileInputStream;
+
 public class NewEntry extends AppCompatActivity
 {
     @Override
@@ -24,6 +35,22 @@ public class NewEntry extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_entry);
+
+        FirebaseStorage storage = FirebaseStorage.getInstance();
+        StorageReference storageRef = storage.getReference();
+
+        Uri file = Uri.fromFile(new File("image_4.jpg"));
+        StorageReference userImageRef = storageRef.child("images/"+file.getLastPathSegment());
+        UploadTask uploadTask = userImageRef.putFile(file);
+
+        uploadTask.addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+            @Override
+            public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+                taskSnapshot.getMetadata();
+            }
+
+        });
+
     }
 
 }

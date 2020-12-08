@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_with_overlay"
+    tools:context="com.example.lexiwylie.rl.LoginActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="?attr/colorPrimaryDark"
+        android:paddingStart="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageButton
+                android:id="@+id/iconMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_menu"
+                android:background="@color/colorPrimaryDark">
+            </ImageButton>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="80dp"
+                android:text="Settings"
+                android:textAllCaps="false"
+                android:fontFamily="@font/karla"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp"/>
+
+            <ImageButton
+                android:id="@+id/iconSettings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_settings"
+                android:background="@color/colorPrimaryDark">
+            </ImageButton>
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- header -->
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <!-- profile picture -->
+        <ImageView
+            android:id="@+id/imageProfile"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/sample_profile_image"
+            android:scaleType="centerCrop" />
+
+        <!-- text -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:fontFamily="@font/karla"
+                android:text="UPDATE PHOTO"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/colon"/>
+
+        </LinearLayout><!-- text -->
+
+    </LinearLayout><!-- header -->
+
+    <!--login box-->
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="450dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent">
+
+        <!--email/password-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:padding="40dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/karla"
+                android:text="NAME"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/name"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:fontFamily="@font/karla"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/karla"
+                android:text="TITLE"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"/>
+
+            <EditText
+                android:id="@+id/title"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:fontFamily="@font/karla"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/karla"
+                android:text="LOCATION"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"/>
+
+            <EditText
+                android:id="@+id/location"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:fontFamily="@font/karla"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/karla"
+                android:text="EMAIL"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"/>
+
+            <EditText
+                android:id="@+id/email"
+                android:inputType="textWebEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:fontFamily="@font/karla"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp"
+                android:text="awylie@crimson.ua.edu"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/karla"
+                android:text="PASSWORD"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"/>
+
+            <EditText
+                android:id="@+id/passwordLogin"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:fontFamily="@font/karla"
+                android:text="Password123"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/karla"
+                    android:text="PUSH NOTIFICATIONS"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="25dp"
+                    android:src="@drawable/button_pink"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+
+        </LinearLayout><!--email/password-->
+
+        <!--get started-->
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:background="@color/colorPrimary"
+            android:text="Update"
+            android:fontFamily="@font/karla"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:drawableEnd="@drawable/icon_arrow"/><!--get started-->
+
+    </LinearLayout><!--login box-->
+
+
+</LinearLayout>

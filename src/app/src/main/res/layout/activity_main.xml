@@ -71,7 +71,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="First Name"
+                android:text="First"
                 android:fontFamily="@font/karla"
                 android:textStyle="bold"
                 android:textColor="@color/colorPrimaryDark"
@@ -80,7 +80,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Last Name"
+                android:text="Name"
                 android:fontFamily="@font/karla"
                 android:textStyle="bold"
                 android:textColor="@color/colorPrimaryDark"
@@ -157,13 +157,14 @@
         android:layout_marginBottom="30dp"
         android:elevation="30dp">
 
-        <ImageView
+        <ImageButton
+            android:id="@+id/mountainEntry"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:scaleType="centerCrop"
-            android:src="@drawable/image_1">
-        </ImageView>
+            android:src="@drawable/image_2">
+        </ImageButton>
 
         <LinearLayout
             android:layout_width="0dp"
@@ -176,7 +177,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:scaleType="centerCrop"
-                android:src="@drawable/image_2">
+                android:src="@drawable/image_3">
             </ImageView>
 
             <ImageView
@@ -184,7 +185,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:scaleType="centerCrop"
-                android:src="@drawable/image_3">
+                android:src="@drawable/image_4">
             </ImageView>
 
         </LinearLayout>
